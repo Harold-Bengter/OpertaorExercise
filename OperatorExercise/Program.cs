@@ -3,7 +3,7 @@ int resultAdd;
 int addA = 23;
 int addB = 1;
 
-resultAdd = addA + addB;
+resultAdd = addA += addB;
 
 Console.WriteLine(resultAdd);
 
@@ -12,7 +12,7 @@ int resultSub;
 int subA = 4;
 int subB = 55;
 
-resultSub = subA - subB;
+resultSub = subA -= subB;
 
 Console.WriteLine(resultSub);
 
@@ -21,7 +21,7 @@ int resultMult;
 int multA = 12;
 int multB = 2;
 
-resultMult = multA * multB;
+resultMult = multA *= multB;
 
 Console.WriteLine(resultMult);
 
@@ -30,7 +30,15 @@ var a = 17;
 var b = 4;
 var quptient = a / b;
 var remainder = a % b;
-Console.WriteLine(a + "/" + b + "is " + quptient + "reamainder" + remainder);
+if (a == 17 && b == 4)
+{
+    Console.WriteLine(a + " / " + b + " is " + quptient + " reamainder " + remainder); 
+ }
+else
+{
+    Console.WriteLine("error");
+}
+
 
 
 
