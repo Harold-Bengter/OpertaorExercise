@@ -25,7 +25,7 @@ resultMult = multA *= multB;
 
 Console.WriteLine(resultMult);
 
-//Division & Modulus operators example:
+//Division & Modulus operators:
 var a = 17;
 var b = 4;
 var quptient = a / b;
